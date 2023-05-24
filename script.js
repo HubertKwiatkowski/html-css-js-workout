@@ -7,7 +7,7 @@ const changeColor = () => {
   boxToChange.style.borderColor = colorsForBox[currentIndex];
   currentIndex = (currentIndex + 1);
 
-  setTimeout(changeColor, 4000);
+  setTimeout(changeColor, 3000);
 };
 
-setTimeout(changeColor, 4000);
+setTimeout(changeColor, 3000);
